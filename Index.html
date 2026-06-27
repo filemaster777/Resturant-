@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA Luxury Salon | Ranjit Avenue, Amritsar</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Playfair Display & Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        .font-serif { font-family: 'Playfair Display', Georgia, serif; }
+        .font-sans { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#FAF9F6] text-neutral-800 font-sans antialiased">
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-neutral-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-serif font-semibold tracking-widest text-neutral-900 uppercase">AURA</a>
+            <nav class="hidden md:flex space-x-10 text-xs tracking-widest uppercase font-medium text-neutral-500">
+                <a href="#services" class="hover:text-amber-600 transition duration-300">Services</a>
+                <a href="#about" class="hover:text-amber-600 transition duration-300">Location & Map</a>
+                <a href="#booking" class="hover:text-amber-600 transition duration-300">Bookings</a>
+            </nav>
+            <!-- Header Sticky Booking Button -->
+            <a href="#booking" class="bg-amber-600 text-white px-6 py-2.5 text-xs uppercase tracking-widest font-semibold hover:bg-amber-700 transition duration-300 rounded shadow-md">
+                <i class="fa-regular fa-calendar-days mr-2"></i>Book Online
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-neutral-950 text-white overflow-hidden min-h-[85vh] flex items-center">
+        <!-- Background Image with Overlay (Now Colorful and High-Vibrancy) -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1920&q=80" alt="Luxury Salon Interior Colorful" class="w-full h-full object-cover object-center opacity-50">
+            <div class="absolute inset-0 bg-gradient-to-r from-neutral-950 via-neutral-950/80 to-transparent"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-6 w-full py-20 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6 max-w-xl">
+                <span class="text-amber-400 uppercase tracking-[0.3em] text-xs font-semibold block">Ranjit Avenue, Amritsar</span>
+                <h1 class="text-4xl md:text-6xl font-serif font-light tracking-wide leading-tight text-neutral-100">
+                    Where Luxury Meets <span class="italic font-normal text-amber-300">Perfection</span>
+                </h1>
+                <p class="text-neutral-200 text-sm md:text-base leading-relaxed font-light">
+                    Experience premier luxury hair artistry, restorative skincare treatments, and custom bridal makeovers delivered by top industry certified artists.
+                </p>
+                <!-- Hero Action Buttons -->
+                <div class="pt-4 flex flex-wrap gap-4">
+                    <a href="#booking" class="bg-amber-500 text-neutral-950 px-8 py-4 text-xs uppercase tracking-widest font-bold hover:bg-amber-400 transition duration-300 shadow-lg shadow-amber-500/20 rounded">
+                        <i class="fa-solid fa-calendar-check mr-2"></i>Book Appointment
+                    </a>
+                    <a href="https://wa.me/919876543210" target="_blank" class="border border-neutral-600 hover:border-emerald-500 text-white px-8 py-4 text-xs uppercase tracking-widest font-semibold transition duration-300 bg-neutral-900/60 backdrop-blur-sm rounded flex items-center">
+                        <i class="fa-brands fa-whatsapp text-emerald-400 text-sm mr-2"></i>Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="max-w-7xl mx-auto px-6 py-24">
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+            <span class="text-amber-600 text-xs font-semibold tracking-widest uppercase">Premium Catalog</span>
+            <h2 class="text-3xl md:text-4xl font-serif font-light tracking-wide text-neutral-950">Our Signature Services</h2>
+            <div class="w-16 h-[1px] bg-amber-500/60 mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <!-- Service 1 -->
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 group border border-neutral-100">
+                <div class="h-64 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80" alt="Hair Care" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-8 space-y-3">
+                    <h3 class="text-xl font-serif text-neutral-950">Hair Artistry & Craft</h3>
+                    <p class="text-neutral-500 text-sm leading-relaxed font-light">Precision cuts, custom multi-dimensional balayage, organic smoothing treatments, and advanced restructure hair botox therapies.</p>
+                </div>
+            </div>
+            <!-- Service 2 -->
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 group border border-neutral-100">
+                <div class="h-64 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80" alt="Skincare Facial" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-8 space-y-3">
+                    <h3 class="text-xl font-serif text-neutral-950">Clinical Aesthetics</h3>
+                    <p class="text-neutral-500 text-sm leading-relaxed font-light">Customized cellular facials, clarifying medi-cleanups, and targeted hydration routines curated uniquely for flawless skin renewal.</p>
+                </div>
+            </div>
+            <!-- Service 3 -->
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 group border border-neutral-100">
+                <div class="h-64 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80" alt="Bridal Makeup" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-8 space-y-3">
+                    <h3 class="text-xl font-serif text-neutral-950">Bridal & Couture Makeup</h3>
+                    <p class="text-neutral-500 text-sm leading-relaxed font-light">Exquisite high-definition bridal styling and celebrity red-carpet makeovers crafted exclusively with elite international brands.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map & Contact Location Section -->
+    <section id="about" class="py-20 bg-neutral-100 border-t border-b border-neutral-200 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <span class="text-amber-600 text-xs font-semibold tracking-widest uppercase">Visit Our Space</span>
+                <h2 class="text-3xl font-serif font-light text-neutral-950">At The Heart of Ranjit Avenue</h2>
+                <p class="text-neutral-600 text-sm leading-relaxed font-light">
+                    Perfectly situated within the premium commercial core of <strong>District Shopping Centre, B-Block, Ranjit Avenue, Amritsar</strong>. Drop by or navigate instantly via the live integrated system map.
+                </p>
+                <div class="space-y-4 text-sm text-neutral-700">
+                    <p class="flex items-start"><i class="fa-solid fa-location-dot text-amber-600 mt-1 mr-3 w-4"></i> <span>B-Block, District Shopping Center, Ranjit Avenue, Amritsar, Punjab</span></p>
+                    <p class="flex items-center"><i class="fa-solid fa-clock text-amber-600 mr-3 w-4"></i> <span>Everyday Open: 10:00 AM – 09:00 PM</span></p>
+                    <p class="flex items-center"><i class="fa-solid fa-phone text-amber-600 mr-3 w-4"></i> <span>+91 98765 43210</span></p>
+                </div>
+            </div>
+            
+            <!-- Live Interactive Google Maps System -->
+            <div class="w-full h-80 md:h-96 rounded-2xl overflow-hidden shadow-lg border-2 border-white bg-neutral-200">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.14324204856!2d74.8712398!3d31.6578052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391964aa569e7355%3A0x89e0066ee7c8b0!2sRanjit%20Avenue%2C%20Amritsar%2C%20Punjab!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin" 
+                        class="w-full h-full border-0 grayscale-[20%] hover:grayscale-0 transition duration-500" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dynamic Booking Form Section -->
+    <section id="booking" class="bg-neutral-950 py-24 px-6 text-white relative">
+        <div class="max-w-xl mx-auto bg-neutral-900 border border-neutral-800 rounded-2xl p-8 md:p-10 shadow-2xl space-y-8">
+            <div class="text-center space-y-2">
+                <h2 class="text-3xl font-serif font-light text-neutral-100">Schedule Your Visit</h2>
+                <p class="text-neutral-400 text-xs tracking-wide">Submit your desired booking window to instantly lock down details via WhatsApp confirmation.</p>
+            </div>
+
+            <form id="appointmentForm" class="space-y-5">
+                <div>
+                    <label class="block text-[11px] font-medium uppercase tracking-widest text-neutral-400 mb-2">Guest Full Name</label>
+                    <input type="text" id="clientName" required class="w-full px-4 py-3 bg-neutral-950 border border-neutral-800 rounded-lg text-sm text-neutral-200 focus:outline-none focus:border-amber-500 transition placeholder-neutral-700" placeholder="e.g., Harpreet Singh">
+                </div>
+
+                <div>
+                    <label class="block text-[11px] font-medium uppercase tracking-widest text-neutral-400 mb-2">Select Routine</label>
+                    <select id="salonService" class="w-full px-4 py-3 bg-neutral-950 border border-neutral-800 rounded-lg text-sm text-neutral-300 focus:outline-none focus:border-amber-500 transition">
+                        <option value="Hair Cut & Bespoke Styling">Hair Cut & Bespoke Styling</option>
+                        <option value="Advanced Botox/Keratin Repair">Advanced Hair Repair Therapy</option>
+                        <option value="Luxury Skin Aesthetic Glow Facial">Luxury Aesthetics Glow Facial</option>
+                        <option value="Bridal/Celebrity High-Definition Makeover">Bridal Haute Makeover</option>
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-[11px] font-medium uppercase tracking-widest text-neutral-400 mb-2">Date Option</label>
+                        <input type="date" id="bookDate" required class="w-full px-4 py-3 bg-neutral-950 border border-neutral-800 rounded-lg text-sm text-neutral-300 focus:outline-none focus:border-amber-500 transition">
+                    </div>
+                    <div>
+                        <label class="block text-[11px] font-medium uppercase tracking-widest text-neutral-400 mb-2">Time Option</label>
+                        <input type="time" id="bookTime" required class="w-full px-4 py-3 bg-neutral-950 border border-neutral-800 rounded-lg text-sm text-neutral-300 focus:outline-none focus:border-amber-500 transition">
+                    </div>
+                </div>
+
+                <!-- Main Instant WhatsApp Routing Button -->
+                <button type="submit" class="w-full bg-emerald-600 text-white font-medium text-xs tracking-widest py-4 rounded-lg uppercase hover:bg-emerald-700 transition-all duration-300 shadow-xl flex items-center justify-center space-x-2 mt-4">
+                    <i class="fa-brands fa-whatsapp text-base"></i>
+                    <span>Confirm Booking via WhatsApp</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-neutral-950 text-neutral-600 text-[11px] tracking-wider py-10 text-center border-t border-neutral-900">
+        <p>&copy; 2026 AURA Premium Salon • Ranjit Avenue, Amritsar. Designed with Excellence.</p>
+    </footer>
+
+    <!-- Instant WhatsApp Floating Chat Widget -->
+    <a href="https://wa.me/919876543210" 
+       target="_blank" 
+       id="whatsappFloatingBtn"
+       class="fixed bottom-8 right-8 bg-emerald-500 text-white p-4 rounded-full shadow-2xl hover:bg-emerald-600 transition-all duration-300 z-50 flex items-center justify-center text-2xl group active:scale-95"
+       title="Connect Instantly">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-300 ease-out text-xs uppercase tracking-widest font-semibold whitespace-nowrap pl-0 group-hover:pl-3">Live Concierge Chat</span>
+    </a>
+
+    <!-- JavaScript Automation Logic -->
+    <script>
+        // Set your real Business Mobile Contact Here (Country code + Phone Number, no symbols)
+        const BUSINESS_WHATSAPP_NUMBER = "919876543210"; 
+
+        document.getElementById('appointmentForm').addEventListener('submit', function(element) {
+            element.preventDefault();
+
+            const clientName = document.getElementById('clientName').value;
+            const chosenService = document.getElementById('salonService').value;
+            const pickedDate = document.getElementById('bookDate').value;
+            const pickedTime = document.getElementById('bookTime').value;
+
+            // Formulate clean structured text layout for direct business delivery
+            const formattedText = `Hello Aura Salon! I want to lock in a premium booking request at your Ranjit Avenue branch.%0A%0A` +
+                                  `✨ *RESERVATION PARAMETERS:*%0A` +
+                                  `▫️ *Guest Name:* ${encodeURIComponent(clientName)}%0A` +
+                                  `▫️ *Routine Selected:* ${encodeURIComponent(chosenService)}%0A` +
+                                  `▫️ *Date:* ${encodeURIComponent(pickedDate)}%0A` +
+                                  `▫️ *Preferred Time Slot:* ${encodeURIComponent(pickedTime)}`;
+
+            const redirectUrl = `https://wa.me/${BUSINESS_WHATSAPP_NUMBER}?text=${formattedText}`;
+            window.open(redirectUrl, '_blank');
+        });
+
+        // Initialize Floating Chat Widget dynamically matching the configuration
+        document.getElementById('whatsappFloatingBtn').href = `https://wa.me/${BUSINESS_WHATSAPP_NUMBER}?text=Hello%20Aura%20Salon!%20I'd%20like%20to%20know%20more%20about%20your%20services%20offered%20at%20Ranjit%20Avenue.`;
+    </script>
+</body>
+</html>
